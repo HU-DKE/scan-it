@@ -1,4 +1,8 @@
 PODS:
+  - Alamofire (4.7.3)
+  - AlamofireImage (3.3.1):
+    - Alamofire (~> 4.5)
+  - BarcodeScanner (4.1.3)
   - Firebase/Core (5.7.0):
     - Firebase/CoreOnly
     - FirebaseAnalytics (= 5.1.1)
@@ -86,12 +90,18 @@ PODS:
   - Protobuf (3.6.1)
 
 DEPENDENCIES:
+  - Alamofire (~> 4.4)
+  - AlamofireImage
+  - BarcodeScanner
   - Firebase/Core
   - Firebase/MLVision
   - Firebase/MLVisionBarcodeModel
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - AlamofireImage
+    - BarcodeScanner
     - Firebase
     - FirebaseAnalytics
     - FirebaseCore
@@ -109,6 +119,9 @@ SPEC REPOS:
     - Protobuf
 
 SPEC CHECKSUMS:
+  Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
+  AlamofireImage: 3b35b586853abaf94ca1250f4e94cff3c21a4c0d
+  BarcodeScanner: fce1ad2b3f28286b1ab5091fe0979789618bee27
   Firebase: 734a4f92957aa6c40e7ae3fda3d9359e1890aa87
   FirebaseAnalytics: 993577e91157feb40945abedd6ab346d8a4b6ac8
   FirebaseCore: 3a97432acb324b439fbed338e642f9cbb516a63d
@@ -125,6 +138,6 @@ SPEC CHECKSUMS:
   nanopb: 5601e6bca2dbf1ed831b519092ec110f66982ca3
   Protobuf: 1eb9700044745f00181c136ef21b8ff3ad5a0fd5
 
-PODFILE CHECKSUM: 57417d6b856556a5fbf73f383ade868c752d1752
+PODFILE CHECKSUM: 09232edd8c495d76f9ac14089ffecb1b30ca773f
 
 COCOAPODS: 1.5.3

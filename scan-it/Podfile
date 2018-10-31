@@ -7,6 +7,9 @@ target 'scan-it' do
     pod 'Firebase/Core'
     pod 'Firebase/MLVision'
     pod 'Firebase/MLVisionBarcodeModel'
+    pod 'BarcodeScanner'
+    pod 'Alamofire', '~> 4.4'
+    pod 'AlamofireImage'
   # Pods for scan-it
 
   target 'scan-itTests' do
