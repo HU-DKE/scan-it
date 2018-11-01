@@ -90,7 +90,7 @@ PODS:
   - Protobuf (3.6.1)
 
 DEPENDENCIES:
-  - Alamofire (~> 4.4)
+  - Alamofire
   - AlamofireImage
   - BarcodeScanner
   - Firebase/Core
@@ -138,6 +138,6 @@ SPEC CHECKSUMS:
   nanopb: 5601e6bca2dbf1ed831b519092ec110f66982ca3
   Protobuf: 1eb9700044745f00181c136ef21b8ff3ad5a0fd5
 
-PODFILE CHECKSUM: 09232edd8c495d76f9ac14089ffecb1b30ca773f
+PODFILE CHECKSUM: 45022ca4b4039de8a668b0cd7b3a16d253791412
 
 COCOAPODS: 1.5.3
