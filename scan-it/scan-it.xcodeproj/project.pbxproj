@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0B23EC7B2182404E00D62B69 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0B23EC7A2182404E00D62B69 /* GoogleService-Info.plist */; };
+		0B449BD7218B7AD600768FA0 /* ScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B449BD6218B7AD600768FA0 /* ScannerViewController.swift */; };
+		0B449BD9218B7AE800768FA0 /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B449BD8218B7AE800768FA0 /* ProductViewController.swift */; };
 		1A6EE9F3216D30C600F5C732 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6EE9F2216D30C600F5C732 /* AppDelegate.swift */; };
 		1A6EE9F5216D30C600F5C732 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6EE9F4216D30C600F5C732 /* ViewController.swift */; };
 		1A6EE9F8216D30C600F5C732 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A6EE9F6216D30C600F5C732 /* Main.storyboard */; };
@@ -38,7 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0B23EC7A2182404E00D62B69 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../Desktop/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0B449BD6218B7AD600768FA0 /* ScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerViewController.swift; sourceTree = "<group>"; };
+		0B449BD8218B7AE800768FA0 /* ProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
 		1A6EE9EF216D30C600F5C732 /* scan-it.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "scan-it.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A6EE9F2216D30C600F5C732 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1A6EE9F4216D30C600F5C732 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -91,6 +93,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B449BDA218B7AED00768FA0 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				0B449BD6218B7AD600768FA0 /* ScannerViewController.swift */,
+				0B449BD8218B7AE800768FA0 /* ProductViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		0B449BDB218B7AF700768FA0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		1A6EE9E6216D30C600F5C732 = {
 			isa = PBXGroup;
 			children = (
@@ -116,12 +134,13 @@
 		1A6EE9F1216D30C600F5C732 /* scan-it */ = {
 			isa = PBXGroup;
 			children = (
+				0B449BDB218B7AF700768FA0 /* Models */,
+				0B449BDA218B7AED00768FA0 /* ViewControllers */,
 				1A6EE9F2216D30C600F5C732 /* AppDelegate.swift */,
 				1A6EE9F4216D30C600F5C732 /* ViewController.swift */,
 				1A6EE9F6216D30C600F5C732 /* Main.storyboard */,
 				1A6EE9F9216D30C700F5C732 /* Assets.xcassets */,
 				1A6EE9FB216D30C700F5C732 /* LaunchScreen.storyboard */,
-				0B23EC7A2182404E00D62B69 /* GoogleService-Info.plist */,
 				1A6EE9FE216D30C700F5C732 /* Info.plist */,
 			);
 			path = "scan-it";
@@ -277,7 +296,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A6EE9FD216D30C700F5C732 /* LaunchScreen.storyboard in Resources */,
-				0B23EC7B2182404E00D62B69 /* GoogleService-Info.plist in Resources */,
 				1A6EE9FA216D30C700F5C732 /* Assets.xcassets in Resources */,
 				1A6EE9F8216D30C600F5C732 /* Main.storyboard in Resources */,
 			);
@@ -378,12 +396,6 @@
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
 				"${BUILT_PRODUCTS_DIR}/BarcodeScanner/BarcodeScanner.framework",
-				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
-				"${BUILT_PRODUCTS_DIR}/GoogleAPIClientForREST/GoogleAPIClientForREST.framework",
-				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
-				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
-				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
-				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
@@ -392,12 +404,6 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BarcodeScanner.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleAPIClientForREST.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -412,6 +418,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A6EE9F5216D30C600F5C732 /* ViewController.swift in Sources */,
+				0B449BD7218B7AD600768FA0 /* ScannerViewController.swift in Sources */,
+				0B449BD9218B7AE800768FA0 /* ProductViewController.swift in Sources */,
 				1A6EE9F3216D30C600F5C732 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -589,6 +597,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E36ZQJYBY6;
 				INFOPLIST_FILE = "scan-it/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -607,6 +616,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E36ZQJYBY6;
 				INFOPLIST_FILE = "scan-it/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
