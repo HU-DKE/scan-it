@@ -7,8 +7,8 @@ Time spent: **** hours spent in total
 ## User Stories
 The following **required** user stories are complete:
 
-- [] User sees app icon in home screen and styled launch screen
-- [] User can search for product by barcode using phone's camera
+- [x] User sees app icon in home screen and styled launch screen
+- [x] User can search for product by barcode using phone's camera
 - [] User can see the product name and photo as a result of the search by barcode.
 
 The following **optional** user stories are complete:
