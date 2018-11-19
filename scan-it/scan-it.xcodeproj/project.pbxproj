@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B1E5B8221A312CB006D7E05 /* TagCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B1E5B8121A312CB006D7E05 /* TagCell.swift */; };
 		0B449BD9218B7AE800768FA0 /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B449BD8218B7AE800768FA0 /* ProductViewController.swift */; };
 		1A6EE9F3216D30C600F5C732 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6EE9F2216D30C600F5C732 /* AppDelegate.swift */; };
 		1A6EE9F5216D30C600F5C732 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A6EE9F4216D30C600F5C732 /* ViewController.swift */; };
@@ -42,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B1E5B8121A312CB006D7E05 /* TagCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagCell.swift; sourceTree = "<group>"; };
 		0B449BD8218B7AE800768FA0 /* ProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
 		1A6EE9EF216D30C600F5C732 /* scan-it.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "scan-it.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A6EE9F2216D30C600F5C732 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -99,6 +101,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B1E5B8021A31286006D7E05 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0B1E5B8121A312CB006D7E05 /* TagCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		0B449BDA218B7AED00768FA0 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -111,6 +121,7 @@
 		1A6EE9E6216D30C600F5C732 = {
 			isa = PBXGroup;
 			children = (
+				0B1E5B8021A31286006D7E05 /* Views */,
 				1A6EE9F1216D30C600F5C732 /* scan-it */,
 				1A6EEA06216D30C700F5C732 /* scan-itTests */,
 				1A6EEA11216D30C700F5C732 /* scan-itUITests */,
@@ -430,6 +441,7 @@
 				1AE27256219DDFB0005F6439 /* APIManager.swift in Sources */,
 				1A9D394D219E3C1600BAF1C9 /* FoodProduct.swift in Sources */,
 				1A6EE9F5216D30C600F5C732 /* ViewController.swift in Sources */,
+				0B1E5B8221A312CB006D7E05 /* TagCell.swift in Sources */,
 				0B449BD9218B7AE800768FA0 /* ProductViewController.swift in Sources */,
 				1AF0099F2192221400F0209E /* ScannerViewController.swift in Sources */,
 				1A6EE9F3216D30C600F5C732 /* AppDelegate.swift in Sources */,

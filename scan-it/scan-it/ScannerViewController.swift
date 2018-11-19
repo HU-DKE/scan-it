@@ -13,7 +13,9 @@ class ScannerViewController: UIViewController, BarcodeScannerCodeDelegate, Barco
     var newProduct: FoodProduct!
     
     @IBOutlet var startScanBtn: UIButton!
-    
+    @IBOutlet weak var textField: UITextField!
+    @IBOutlet weak var dropDown: UIPickerView!
+    @IBOutlet weak var tagCollection: UICollectionView!
     override func viewDidLoad() {
         super.viewDidLoad()
         
