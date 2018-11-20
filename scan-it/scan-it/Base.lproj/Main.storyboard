@@ -32,6 +32,9 @@
                                         <integer key="value" value="25"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="toPresentScan:forEvent:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lWQ-3w-6Pb"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="UVegan?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bi5-eb-xO7">
                                 <rect key="frame" x="59" y="171" width="69" height="26"/>
@@ -139,7 +142,9 @@
                     <navigationItem key="navigationItem" title="Scan-It" id="uHr-1X-2UB"/>
                     <connections>
                         <outlet property="dropDown" destination="Tjs-iz-VRQ" id="Twq-AG-REV"/>
+                        <outlet property="startScanBtn" destination="eYz-le-3Nq" id="bt0-4s-hFm"/>
                         <outlet property="tagCollection" destination="NN0-Jg-d2X" id="eTl-6P-KC8"/>
+                        <outlet property="textField" destination="OIR-4E-8wx" id="adQ-B3-aai"/>
                         <segue destination="53D-Ga-uDr" kind="show" identifier="toProduct" id="Fit-aL-ANz"/>
                     </connections>
                 </viewController>
@@ -259,6 +264,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="greenCheck" width="16" height="16"/>
+        <image name="greenCheck" width="80" height="80"/>
     </resources>
 </document>
