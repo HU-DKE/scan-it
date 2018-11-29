@@ -9,13 +9,13 @@ The following **required** user stories are complete:
 
 - [x] User sees app icon in home screen and styled launch screen
 - [x] User can search for product by barcode using phone's camera
-- [] User can see the product name and photo as a result of the search by barcode.
+- [x] User can see the product name and photo as a result of the search by barcode.
 
 The following **optional** user stories are complete:
-- [] Interface should be user friendly and aesthetically pleasing
-- [] User can select vegan or vegetarian
-- [] User can select allergens from a list or type in new allergens
-- [] User will be alerted as to wheter item scanned is vegan, vegetarian, or contains user-selected allergens
+- [x] Interface should be user friendly and aesthetically pleasing
+- [x] User can select vegan or vegetarian
+- [x] User can select allergens from a list or type in new allergens
+- [x] User will be alerted as to wheter item scanned is vegan, vegetarian, or contains user-selected allergens
 
 Please list two areas of the assignment you'd like to **discuss further with your peers** during the next class (examples include better ways to implement something, how to extend your app in certain ways, etc):
 
